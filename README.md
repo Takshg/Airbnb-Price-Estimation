@@ -1,6 +1,6 @@
 # Data analysis guide (DATA 407 project report — Section 3)
 
-This README maps the **Data Analysis** section of the project report (e.g. *DATA_407_Project_Report*) to **where the numbers, tables, and figures live** in this repository: which files to open, which cells produce which outputs, and how figures relate to **Figure 1–7** in the report.
+This README maps the **Data Analysis** section of the project report to **where the numbers, tables, and figures live** in this repository: which files to open, which cells produce which outputs, and how figures relate to **Figure 1–7** in the report.
 
 ---
 
