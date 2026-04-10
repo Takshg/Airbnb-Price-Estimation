@@ -159,5 +159,3 @@ Or run all cells in order in Jupyter / VS Code.
 | **Figure 7** | Sensitivity scenario comparison | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (grouped bars) |
 
 ---
-
-*This guide is aligned with the structure of **Section 3 (Data Analysis)** in the DATA 407 project report PDF; table and figure numbering follow that document.*
