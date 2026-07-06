@@ -1,6 +1,6 @@
 # Data analysis guide (DATA 407 project report — Section 3)
 
-This README maps the **Data Analysis** section of the project report (e.g. *DATA_407_Project_Report*) to **where the numbers, tables, and figures live** in this repository: which files to open, which cells produce which outputs, and how figures relate to **Figure 1–7** in the report.
+This README maps the **Data Analysis** section of the project report to **where the numbers, tables, and figures live** in this repository: which files to open, which cells produce which outputs, and how figures relate to **Figure 1–7** in the report.
 
 ---
 
@@ -159,5 +159,3 @@ Or run all cells in order in Jupyter / VS Code.
 | **Figure 7** | Sensitivity scenario comparison | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (grouped bars) |
 
 ---
-
-*This guide is aligned with the structure of **Section 3 (Data Analysis)** in the DATA 407 project report PDF; table and figure numbering follow that document.*
