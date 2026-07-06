@@ -1,4 +1,4 @@
-# Data analysis guide (DATA 407 project report — Section 3)
+Airbnb Price Estimation
 
 This README maps the **Data Analysis** section of the project report to **where the numbers, tables, and figures live** in this repository: which files to open, which cells produce which outputs, and how figures relate to **Figure 1–7** in the report.
 
@@ -6,14 +6,14 @@ This README maps the **Data Analysis** section of the project report to **where 
 
 ## Quick reference: main artifacts
 
-| Role | File |
-|------|------|
-| **Analysis population** (N = 4,702 listings, `price`, `neighbourhood`, etc.) | [`analysis_dataset.csv`](analysis_dataset.csv) |
-| **Exploratory analysis, skewness, outliers, stratum context, Figures 1–3** | [`EDA.ipynb`](EDA.ipynb) |
-| **Sampling formulas, allocations, single run, Monte Carlo, bootstrap, sensitivity, Tables 4–8** | [`sampling_simulation.ipynb`](sampling_simulation.ipynb) |
-| **Shared estimators / simulation code** | [`sampling_core.py`](sampling_core.py) |
-| **Report-style plots: sampling distributions, boxplots, coverage, sensitivity (Figures 4–7 + extras)** | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) |
-| **Workflow and DEFF / coverage narrative** | [`SAMPLING_WORKFLOW_AND_CHANGELOG.md`](SAMPLING_WORKFLOW_AND_CHANGELOG.md) |
+| Role                                                                                                          | File                                                                        |
+| ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Analysis population** (N = 4,702 listings, `price`, `neighbourhood`, etc.)                        | [`analysis_dataset.csv`](analysis_dataset.csv)                             |
+| **Exploratory analysis, skewness, outliers, stratum context, Figures 1–3**                             | [`EDA.ipynb`](EDA.ipynb)                                                   |
+| **Sampling formulas, allocations, single run, Monte Carlo, bootstrap, sensitivity, Tables 4–8**        | [`sampling_simulation.ipynb`](sampling_simulation.ipynb)                   |
+| **Shared estimators / simulation code**                                                                 | [`sampling_core.py`](sampling_core.py)                                     |
+| **Report-style plots: sampling distributions, boxplots, coverage, sensitivity (Figures 4–7 + extras)** | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb)       |
+| **Workflow and DEFF / coverage narrative**                                                              | [`SAMPLING_WORKFLOW_AND_CHANGELOG.md`](SAMPLING_WORKFLOW_AND_CHANGELOG.md) |
 
 ---
 
@@ -148,14 +148,14 @@ Or run all cells in order in Jupyter / VS Code.
 
 ## Figure index (report ↔ repository)
 
-| Report | Topic | Repository location |
-|--------|--------|---------------------|
-| **Figure 1** | Price distribution | [`EDA.ipynb`](EDA.ipynb) |
-| **Figure 2** | Price boxplot | [`EDA.ipynb`](EDA.ipynb) |
-| **Figure 3** | Price vs reviews | [`EDA.ipynb`](EDA.ipynb) |
-| **Figure 4** | Sampling distributions of mean | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (histograms) |
-| **Figure 5** | Spread of estimates | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (boxplot) |
-| **Figure 6** | CI coverage by design | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (coverage bars) |
-| **Figure 7** | Sensitivity scenario comparison | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (grouped bars) |
+| Report             | Topic                           | Repository location                                                                   |
+| ------------------ | ------------------------------- | ------------------------------------------------------------------------------------- |
+| **Figure 1** | Price distribution              | [`EDA.ipynb`](EDA.ipynb)                                                             |
+| **Figure 2** | Price boxplot                   | [`EDA.ipynb`](EDA.ipynb)                                                             |
+| **Figure 3** | Price vs reviews                | [`EDA.ipynb`](EDA.ipynb)                                                             |
+| **Figure 4** | Sampling distributions of mean  | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (histograms)    |
+| **Figure 5** | Spread of estimates             | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (boxplot)       |
+| **Figure 6** | CI coverage by design           | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (coverage bars) |
+| **Figure 7** | Sensitivity scenario comparison | [`sampling_results_analysis.ipynb`](sampling_results_analysis.ipynb) (grouped bars)  |
 
 ---
